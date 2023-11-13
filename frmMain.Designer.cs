@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMain));
             chkTamilOn = new CheckBox();
             txtBox = new TextBox();
             SuspendLayout();
@@ -63,6 +64,7 @@
             Controls.Add(txtBox);
             Controls.Add(chkTamilOn);
             Font = new Font("Verdana", 10.2F, FontStyle.Regular, GraphicsUnit.Point);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Margin = new Padding(4, 3, 4, 3);
             Name = "frmMain";
             Text = "Tamil typewriter";
