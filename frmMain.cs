@@ -583,5 +583,9 @@ namespace TamilTypewriter
 
         }
 
+        private void chkTamilOn_CheckedChanged(object sender, EventArgs e)
+        {
+            txtBox.Focus();
+        }
     }
 }

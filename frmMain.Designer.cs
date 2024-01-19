@@ -44,6 +44,7 @@
             chkTamilOn.TabIndex = 0;
             chkTamilOn.Text = "&Tamil";
             chkTamilOn.UseVisualStyleBackColor = true;
+            chkTamilOn.CheckedChanged += chkTamilOn_CheckedChanged;
             // 
             // txtBox
             // 
